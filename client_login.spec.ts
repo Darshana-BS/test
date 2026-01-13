@@ -46,7 +46,7 @@ CLIENTS.forEach(client => {
     } catch (e) {
       // take screenshot if the page is still open
       if (!page.isClosed()) {
-        await page.screenshot({ path: `error-${client.name}.png` });
+        await page.screenshot({ path: `/Users/darsh/Documents/2026/RL/Screenshots/error-${client.name}.png` });
       }
       console.error(`✖ ${client.name} login failed`);
       throw e;
