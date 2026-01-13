@@ -1,3 +1,11 @@
 name,url,username,password_key
 ppmm,https://ppmm.radixhealth.com/dash/,dnehulkar,PPMM_PASSWORD
-villages-health,https://villages-health.radixhealth.com/dash/,dnehulkar,VH_PASSWORD
+villages-health,https://villages-health.radixhealth.com/dash/,dnehulkar,VILLAGES_HEALTH_PASSWORD
+sbortho,https://sbortho.radixhealth.com/dash/,dnehulkar,SBORTHO_PASSWORD
+pboi,https://pboi.radixhealth.com/dash/,dnehulkar,PBOI_PASSWORD
+coastalent,https://coastalent.radixhealth.com/dash/,dnehulkar,COASTALENT_PASSWORD
+cmmhealth,https://cmmhealth.radixhealth.com/dash/,dnehulkar,CMMHEALTH_PASSWORD
+capitalortho,https://capitalortho.radixhealth.com/dash,dnehulkar,CAPITALORTHO_PASSWORD
+resurgensprod,https://resurgensprod.radixhealth.com/dash,dnehulkar,RESURGENSPROD_PASSWORD
+azaleaortho,https://azaleaortho.radixhealth.com/dash,dnehulkar,AZALEAORTHO_PASSWORD
+fondrenortho,https://fondrenortho.radixhealth.com/dash,dnehulkar,FONDRENORTHO_PASSWORD

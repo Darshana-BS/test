@@ -37,8 +37,10 @@ CLIENTS.forEach(client => {
       await page.fill('#userPassword', password!);
       await page.click('#sso-continue');
 
-      await page.waitForNavigation({ waitUntil: 'networkidle', timeout: 30000 });
-      await expect(page.locator('span.version')).toBeVisible({ timeout: 15000 });
+      await expect(page).toHaveURL(
+      /^https:\/\/.*\.radixhealth\.com\/dash\/dash\d+\/#\/patient-search$/,
+      { timeout: 30000 }
+    );
 
       console.log(`✔ ${client.name} login OK`);
     } catch (e) {
